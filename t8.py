@@ -1,8 +1,8 @@
 import os
-from flask import flask, jsonify, request
+from flask import Flask, jsonify, request
 from math import sqrt
 
-app = flask(__name__)
+app = Flask(__name__)
 
 @app.route('/')
 def nao_entre_em_panico():
