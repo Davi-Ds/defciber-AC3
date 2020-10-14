@@ -13,13 +13,14 @@ def nao_entre_em_panico():
     p = 1
     numero = 3
 
-    primos = "1,2,"
+    primos = "2,"
 
-    while p < limite:
+    while p<limite:
         ehprimo = 1
         for i in range (2, numero, 1):
             if numero % i == 0:
                 ehprimo = 0
+                
                 break
 
         if (ehprimo):
