@@ -1,0 +1,100 @@
+2020-10-13T08:32:45.994070+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-13T08:32:45.994124+00:00 app[web.1]: * Environment: production
+2020-10-13T08:32:45.994220+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-13T08:32:45.994305+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-13T08:32:45.994375+00:00 app[web.1]: * Debug mode: off
+2020-10-13T08:32:46.028333+00:00 app[web.1]: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-10-13T08:33:43.668380+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2020-10-13T08:33:43.689797+00:00 heroku[web.1]: Stopping process with SIGKILL
+2020-10-13T08:33:43.852828+00:00 heroku[web.1]: Process exited with status 137
+2020-10-13T08:33:43.890327+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-13T14:34:09.884748+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-13T14:34:14.485892+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-13T14:34:17.119647+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-13T14:34:17.119674+00:00 app[web.1]: * Environment: production
+2020-10-13T14:34:17.119737+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-13T14:34:17.119801+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-13T14:34:17.119843+00:00 app[web.1]: * Debug mode: off
+2020-10-13T14:34:17.139040+00:00 app[web.1]: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-10-13T14:35:14.604050+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2020-10-13T14:35:14.620201+00:00 heroku[web.1]: Stopping process with SIGKILL
+2020-10-13T14:35:14.681070+00:00 heroku[web.1]: Process exited with status 137
+2020-10-13T14:35:14.722199+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-13T20:02:30.186172+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-13T20:02:34.735676+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-13T20:02:39.175944+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-13T20:02:39.175973+00:00 app[web.1]: * Environment: production
+2020-10-13T20:02:39.176050+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-13T20:02:39.176119+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-13T20:02:39.176171+00:00 app[web.1]: * Debug mode: off
+2020-10-13T20:02:39.216455+00:00 app[web.1]: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-10-13T20:03:35.011557+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2020-10-13T20:03:35.050728+00:00 heroku[web.1]: Stopping process with SIGKILL
+2020-10-13T20:03:35.171229+00:00 heroku[web.1]: Process exited with status 137
+2020-10-13T20:03:35.252236+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-13T22:38:31.745719+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=devopsac3py.herokuapp.com request_id=776e345d-c2e0-4890-89b6-e125f6b3baf1 fwd="187.122.125.231" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-13T22:38:32.326920+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=devopsac3py.herokuapp.com request_id=b4185d20-269e-44d6-b3c1-86fc199223d2 fwd="187.122.125.231" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-13T22:56:46.015283+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=devopsac3py.herokuapp.com request_id=65f31eba-19ef-4543-add8-d552209cb10a fwd="187.122.125.231" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-13T22:56:47.292449+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=devopsac3py.herokuapp.com request_id=7a208031-772a-47ab-ab13-56992004e37e fwd="187.122.125.231" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-13T23:45:15.032797+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=devopsac3py.herokuapp.com request_id=3cb80bec-47fc-4dd1-8b8e-2ba3822f4d90 fwd="187.122.125.231" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-13T23:45:15.601134+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=devopsac3py.herokuapp.com request_id=4b55d3cc-9bc9-467f-af70-c3489c583208 fwd="187.122.125.231" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-13T23:49:45.000000+00:00 app[api]: Build started by user davi70silva@gmail.com
+2020-10-13T23:50:07.944122+00:00 app[api]: Release v7 created by user davi70silva@gmail.com
+2020-10-13T23:50:07.944122+00:00 app[api]: Deploy 276eacc2 by user davi70silva@gmail.com
+2020-10-13T23:50:08.154703+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-13T23:50:11.809316+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-13T23:50:14.591547+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-13T23:50:14.591598+00:00 app[web.1]: * Environment: production
+2020-10-13T23:50:14.591599+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-13T23:50:14.591599+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-13T23:50:14.591663+00:00 app[web.1]: * Debug mode: off
+2020-10-13T23:50:14.613836+00:00 app[web.1]: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-10-13T23:50:16.000000+00:00 app[api]: Build succeeded
+2020-10-13T23:51:12.374519+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2020-10-13T23:51:12.399326+00:00 heroku[web.1]: Stopping process with SIGKILL
+2020-10-13T23:51:12.478269+00:00 heroku[web.1]: Process exited with status 137
+2020-10-13T23:51:12.536638+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-13T23:51:12.538974+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-13T23:51:15.190302+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-13T23:51:22.361135+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-13T23:51:22.361157+00:00 app[web.1]: * Environment: production
+2020-10-13T23:51:22.361183+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-13T23:51:22.361214+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-13T23:51:22.361242+00:00 app[web.1]: * Debug mode: off
+2020-10-13T23:51:22.379992+00:00 app[web.1]: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-10-13T23:51:46.324833+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=devopsac3py.herokuapp.com request_id=b0c1fef8-9413-4648-b83e-41aaf58d951d fwd="187.122.125.231" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-13T23:52:20.347595+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2020-10-13T23:52:20.577700+00:00 heroku[web.1]: Stopping process with SIGKILL
+2020-10-13T23:52:20.699932+00:00 heroku[web.1]: Process exited with status 137
+2020-10-13T23:52:21.041010+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-14T00:09:03.000000+00:00 app[api]: Build started by user davi70silva@gmail.com
+2020-10-14T00:09:26.103396+00:00 app[api]: Deploy eea10794 by user davi70silva@gmail.com
+2020-10-14T00:09:26.103396+00:00 app[api]: Release v8 created by user davi70silva@gmail.com
+2020-10-14T00:09:26.440599+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-14T00:09:29.653738+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-14T00:09:32.018602+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-14T00:09:32.018625+00:00 app[web.1]: * Environment: production
+2020-10-14T00:09:32.018683+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-14T00:09:32.018749+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-14T00:09:32.018763+00:00 app[web.1]: * Debug mode: off
+2020-10-14T00:09:32.043466+00:00 app[web.1]: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-10-14T00:09:34.000000+00:00 app[api]: Build succeeded
+2020-10-14T00:10:29.682200+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2020-10-14T00:10:29.701408+00:00 heroku[web.1]: Stopping process with SIGKILL
+2020-10-14T00:10:29.788533+00:00 heroku[web.1]: Process exited with status 137
+2020-10-14T00:10:29.827934+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-14T00:10:29.830697+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-14T00:10:32.495841+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-14T00:10:34.704336+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-14T00:10:34.704367+00:00 app[web.1]: * Environment: production
+2020-10-14T00:10:34.704370+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-14T00:10:34.704429+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-14T00:10:34.704453+00:00 app[web.1]: * Debug mode: off
+2020-10-14T00:10:34.725142+00:00 app[web.1]: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+2020-10-14T00:11:32.884577+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2020-10-14T00:11:32.907302+00:00 heroku[web.1]: Stopping process with SIGKILL
+2020-10-14T00:11:32.984078+00:00 heroku[web.1]: Process exited with status 137
+2020-10-14T00:11:33.025027+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-14T00:11:36.137917+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=devopsac3py.herokuapp.com request_id=37bbb616-80ef-41b2-99f0-1a59e51de381 fwd="187.122.125.231" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T00:12:26.155594+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=devopsac3py.herokuapp.com request_id=6e32625b-7ecf-484e-8f8d-d91e3daea8f2 fwd="187.122.125.231" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-14T00:12:26.728903+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=devopsac3py.herokuapp.com request_id=7db1c441-0ce7-4dee-ad19-e664cce1d627 fwd="187.122.125.231" dyno= connect= service= status=503 bytes= protocol=https
